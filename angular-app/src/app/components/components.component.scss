@@ -1,0 +1,87 @@
+/* Container for the components page */
+.components-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .components-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Section styling */
+  .components-section {
+    margin-bottom: 20px;
+  }
+  
+  .components-section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #343a40;
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .btn.primary {
+    background-color: #4e73df;
+    color: white;
+  }
+  
+  .btn.secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn.danger {
+    background-color: #e74a3b;
+    color: white;
+  }
+  
+  /* Alert styles */
+  .alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .alert.success {
+    background-color: #1cc88a;
+    color: white;
+  }
+  
+  .alert.danger {
+    background-color: #e74a3b;
+    color: white;
+  }
+  
+  .alert.warning {
+    background-color: #f6c23e;
+    color: white;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #5a5c69;
+  }
+  

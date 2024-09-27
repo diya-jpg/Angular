@@ -1,0 +1,36 @@
+/* Container for input and icon */
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+  .input-container .inp {
+    padding-left: 30px; 
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .input-container i {
+    position: absolute;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none; 
+    background-color: rgb(51, 51, 209); /* Icon background color */
+    color: white; /* Icon color */
+    width: 40px; /* Set width for the icon */
+    height: 100%; /* Full height of the container */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+  }
+  .inp::placeholder {
+    color:rgba(128, 128, 128, 0.829); /* Color for the placeholder text */
+    float:right;
+  }
+  

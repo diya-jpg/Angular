@@ -1,0 +1,63 @@
+/* General styling for the Pages section */
+.pages-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .pages-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Grid for page cards */
+  .pages-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  /* Page card styles */
+  .page-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-card i {
+    font-size: 40px;
+    color: #4e73df;
+    margin-bottom: 10px;
+  }
+  
+  .page-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .page-card p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .page-card button {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .page-card button:hover {
+    background-color: #3a5bb8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .pages-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
