@@ -16,6 +16,7 @@ import { ChartComponent } from './chart/chart.component';
 import { TablesComponent } from './tables/tables.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { TablesComponent } from './tables/tables.component';
     PagesComponent,
     ChartComponent,
     TablesComponent,
+
     
   ],
   imports: [
